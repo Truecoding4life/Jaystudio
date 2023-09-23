@@ -5,6 +5,10 @@
     border-radius: 10px;
 
 }
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 header {
     justify-content: space-between;
@@ -14,4 +18,34 @@ header {
 
 a:hover {
     background-color: green;
+}
+.content{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap:1%;
+    width:50%;
+
+}
+.project{
+    max-width: 45%;
+    width:43%;
+    position: relative;
+}
+
+.project-image {
+    width: 95%;
+}
+
+.project-title{
+    position:absolute;
+    background:green;
+    bottom:30px;
+    margin:1%;
+    padding:1%;
+}
+
+.project-title p{
+    letter-spacing: 2px;
+    color:white;
 }
