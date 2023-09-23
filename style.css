@@ -1,0 +1,17 @@
+.about {
+    
+    background-color:green;
+    padding: 1pt;
+    border-radius: 10px;
+
+}
+
+header {
+    justify-content: space-between;
+    align-items: baseline;
+    display: flex;
+}
+
+a:hover {
+    background-color: green;
+}
