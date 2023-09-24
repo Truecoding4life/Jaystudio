@@ -1,6 +1,6 @@
 * {
     font-family: 'Achivo', sans-serif;
-    border-style: dashd;
+    border-style: dahed;
 
 }
 
@@ -131,6 +131,10 @@ div button:hover {
     color: rgb(22, 102, 229);
 }
 
+main button:hover {
+    color: rgb(22, 102, 229);
+}
+
 .about li {
     margin-right: 140px;
     display: inline;
@@ -139,8 +143,13 @@ div button:hover {
 .portfolio-display {
     display: flex;
     flex-shrink: none;
-    overflow: auto;
 
+}
+
+.portfolio-display div:hover {
+    border-style: solid;
+    border-color: rgb(153, 134, 134);
+    outline: 10px;
 }
 
 nav a {
@@ -152,6 +161,18 @@ nav a:hover {
     color: beige;
 }
 
+#bio-button {
+    background-color:transparent;
+    box-shadow: none;
+    color: rgb(37, 36, 36);
+    font-size: 25px;
+}
+
+#bio-button:hover {
+    color: beige;
+}
+
+
 /*@media screen and (max-width:760px) {
     flex-wrap: 2.0;
-}
+}*/
