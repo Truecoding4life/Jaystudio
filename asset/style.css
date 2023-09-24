@@ -1,0 +1,131 @@
+* {
+    font-family:'Achivo', sans-serif;
+    border-style: dashd;
+
+}
+
+body {
+    background-image:url("../asset/image/purple.jpeg");
+}
+
+h1 {
+    font-size: 50pt;
+}
+
+nav {
+    margin-top: 30px;
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav h1 {
+    font-family:'Archivo', sans-serif;
+    padding-right: 350px;
+    color: beige;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-family:'DM Sans', sans-serif;
+    font-size: 13pt;
+
+}
+
+nav button {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-family:'DM Sans', sans-serif;
+    font-size: 13pt;
+    
+}
+
+main div {
+    max-width: 45%
+}
+
+.content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 350px;
+    margin-bottom: 300px;
+}
+
+/*.intro-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*/
+.intro-box {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50px;
+    display: block;
+
+}
+
+button {
+    border-radius: 50px;
+    box-shadow: 1mm;
+    font-weight: 50;
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.button-at-start {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio-display {
+    padding: 50px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+
+}
+
+.portfolio-display div {
+    background-color: rgb(249, 248, 241);
+    border-radius: 50px;
+    box-shadow: 1px 1px;
+}
+
+.portfolio-display h4, .portfolio-display div, .portfolio-display p, button {
+    margin-left: 35px;
+}
+
+nav a :hover{
+    background-color: aqua;
+}
+
+div button {
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    word-spacing: 1.5pt;
+    font-weight: 600;
+    color: grey;
+}
+
+div button:hover {
+    color: rgb(4, 19, 236);
+}
+
+.about li {
+    margin-right: 140px;
+    display: inline;
+}

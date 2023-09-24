@@ -24,3 +24,106 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+
+ </div>
+            </section>
+        <section class="content">
+            <div class="project">
+                <img class="project-image" src="./image1.png"/>
+                <summary class="project-title">
+                    <p>Project</p>
+                </summary>
+            </div>
+            <div class="project">
+                <img src="./image1.png" class="project-image" />
+                <summary class="project-title">
+                    <p>Project</p>
+                </summary>
+            </div>
+            <div class="project">
+                <img src="./image1.png" class="project-image" />
+                <summary class="project-title">
+                    <p>Project</p>
+                </summary>
+            </div>
+            <div class="project">
+                <img src="./image1.png" class="project-image" />
+                <summary class="project-title">
+                    <p>Project</p>
+                </summary>
+            </div>
+            <div class="project">
+                <img src="./image1.png" class="project-image" />
+                <summary class="project-title">
+                    <p>Project</p>
+                </summary>
+            </div>
+        </section>
+
+
+
+.about {
+    
+    background-color:green;
+    padding: 1pt;
+    border-radius: 10px;
+
+header {
+    justify-content: space-between;
+    align-items: baseline;
+    display: flex;
+    margin-left: 5pt;
+    margin-right: 5pt;
+
+}
+header {
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+}
+nav {
+    align-items: center;
+    justify-content: center;
+    display:flex
+}
+
+a:hover {
+    background-color: green;
+}
+.content{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap:1%;
+    width:50%;
+
+}
+.project{
+    max-width: 45%;
+    width:43%;
+    position: relative;
+}
+
+.project-image {
+    width: 95%;
+}
+
+.project-title{
+    position:absolute;
+    background:green;
+    bottom:30px;
+    margin:1%;
+    padding:1%;
+}
+
+.project-title p{
+    letter-spacing: 2px;
+    color:white;
+}
+.intro-header {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;   
+}
