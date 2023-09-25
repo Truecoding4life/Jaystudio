@@ -20,42 +20,37 @@
     <title>Github</title>
 </head>
 
-<body>
+<body >
     <header>
-        <nav>
+        <nav class="header">
             <h1>
                 <img style="margin: 35px 20px 1px; max-width: 50px;" src="asset/image/project1.gif" alt="phone tech">
                 Jay's Studio
             </h1>
-            <a href="#intro-page">Home</a>
+            <a href="#header" >Home</a>
             <a href="#project-display">Project</a>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
 
-    <main class="content" id="intro-page">
+    <main class="content" id="intro-page" style="margin-right: 3000px;">
         <div class="intro-box">
-            <h1 style="color: beige; max-width:8%; margin-left: 95px; margin-left: px;">Make <span
-                    style="color: rgb(241, 131, 131);">your</span> website everyday more <span
-                    style="color:rgb(34, 48, 68) ;"> Valuable</span>.</h1>
-            <p style="max-width: 400px;color: rgb(210, 204, 204);margin-left:107px;"><strong>
-                    Welcome to my Personal webpage where I show case my porfolio, past project and my bio.</p>
+            <h1 style="width:1px;margin-top: 140px;">Make <span style="color: rgb(241, 131, 131);">your</span> website everyday more <span style="color:rgb(34, 48, 68) ;"> Valuable</span>.</h1>
+            <p class="welcome-quote"style="color:rgb(71, 66, 66) ;"><strong>Welcome to my personal webpage where I show case my porfolio, past project and my bio.</strong></p>
             <ul class="button-at-start">
-                <button href="#"
-                    style="color: white; background-color:rgb(22, 109, 230); width: 160px; height: 40px;">My
-                    Project</button>
-                <button href="./asset/bio.html" style="font-family: 'Archivo', Arial, Helvetica, sans-serif; background-color: rgb(243, 205, 109); width: 160px; height: 40px;">
+                <button href="#project-display" class="button-my-project"> My Project</button>
+                <button href="./asset/bio.html" class="button-about-me" style="background-color: rgb(243, 205, 109);">
                     About Me</button>
             </ul>
         </div>
 
         <div>
-            <img class="phone-gif"style="margin-top: 70px;" src="asset/image/florid-crypto-wallet-and-online-banking.gif" alt="phone tech" style="max-width:100%;">
+            <img class="phone-gif"style="margin-top: 180px;" src="asset/image/florid-crypto-wallet-and-online-banking.gif" alt="phone tech" style="max-width:100%;">
         </div>
     </main>
     <main style="margin-top:4px;" class="portfolio-display" id="project-display">
-        <div style="width: 600px; height: 300px; min-width: 600px; margin-left: 200px;">
+        <div style="width: 600px; height: 300px; min-width: 600px;">
             <img style="margin: 35px 40px 1px; max-width: 50px;" src="asset/image/abstract-10.gif" alt="logo">
             <h4> First Project</h4>
             <p>Please provide a short description here</p>
@@ -90,16 +85,15 @@
 
 
 
-    <section class="about">
+    <section class="contact" id="contact">
 
-        <ul
-            style="color: white; border-style: dotted; border-radius: 30px; padding-bottom: 20px; width:400px; margin-left: 160px;">
-            <h3>Contact infomation</h3>
+        <ul class="contact-info">
+            <h3 > Contact information</h3>
             <li style="max-width: 300px;">
-                Email Address: <a href="#">Nghiemxthai@gmail.com</a>
+                Email Address: <a href="nghiemxthai@gmail.com">Here</a>
             </li>
             <li style="max-width: 300px;">
-                Github Account: <a href="#">github.io</a>
+                Github Account: <a href="https://github.com/Truecoding4life/challenge2">github.io</a>
             </li>
             <li style="max-width: 300px;">
                 Cashapp: <a href="#">$code4you</a>
@@ -108,7 +102,7 @@
     </section>
 
 </body>
-<footer style="margin-top: 120px; height: 10px;">
+<footer style="margin-top: 120px;">
     <p> @ Made by Student 2023</p>
 </footer>
 
