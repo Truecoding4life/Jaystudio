@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 body {
@@ -105,7 +106,7 @@ button {
 
 .my-photo {
     border-radius: 30px;
-    box-shadow: 3px 3px 3px;
+    box-shadow: 0px 2px 30px;
     margin-right: 150px;
 
 }
@@ -237,6 +238,7 @@ nav a:hover {
     justify-content: space-evenly;
     font-weight: 600;
     justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -255,10 +257,14 @@ nav a:hover {
     max-width: fit-content;
  }
 
- 222f#project-photo a {
-    background: ;
-    background-image: url('./image/Screenshot\ 2023-09-25\ at\ 9.36.37\ PM.png');
+ #project1-web-image {
+    width: 150px;
+    border-radius: 80px;
+    margin-top: 0px;
+    margin-left: 380px;
+
  }
+
 
 
 @media screen and (max-width:1700px) {
@@ -341,6 +347,12 @@ nav a:hover {
     .portfolio-display {
         size-adjust: 50%;
     }
+
+    .contact-info {
+        margin-left: 200px;
+        font-size: 5px;
+    }
+
 
 
 }
