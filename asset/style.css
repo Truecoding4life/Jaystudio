@@ -23,9 +23,13 @@ body {
     background-size: cover;
     display: inline;
 }
-
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 header {
-    height: 200px;
+    height: 100px;
 
 }
 
@@ -253,6 +257,7 @@ nav a:hover {
 
 
 @media screen and (max-width:1700px) {
+
 
     header nav {
         min-width: fit-content;
