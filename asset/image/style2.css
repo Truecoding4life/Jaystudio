@@ -1,0 +1,51 @@
+body {
+    min-height: 1900px;
+    margin: auto;
+    background-image: url("../image/purple.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-link {
+    font-size: 30px;
+    color: rgba(225, 220, 220, 0.918);
+}
+.navbar-brand {
+    font-size: 50px;
+    font-weight: 900px;
+    color: aliceblue;
+}
+.card {
+    background-color: rgba(71, 91, 108, 0.572);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+.contact-info {
+    color: rgb(9, 9, 9);
+    list-style-type: circle;
+    border-style: dotted;
+    width: 1050px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.contact-info a {
+    color: rgb(70, 219, 29);
+}
+
+.contact-info a:hover {
+    color: var(--white-font)
+}
+ .contact-info:hover {
+    box-shadow: #0000006e;
+ }

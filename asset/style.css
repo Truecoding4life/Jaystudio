@@ -20,283 +20,29 @@
 }
 
 body {
-    max-width: 1400px;
+    min-height: 1900px;
     margin: auto;
     background-image: url("../asset/image/purple.jpeg");
     background-size: cover;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-}
-header {
-    margin-top: 30px;
-    height: 100px;
+    background-repeat: no-repeat;
 
 }
 
-h1 {
-    font-size: 12pt;
+.nav-link {
+    font-size: 30px;
+    color: rgba(225, 220, 220, 0.918);
 }
-
-
-
-.welcome-quote {
-    width: 400px;
-    color:rgba(193, 207, 204, 0.897);
-    font-size: 20px;
-    margin-right: 150px;
-    margin-bottom: 90px;
+.navbar-brand {
+    font-size: 50px;
+    font-weight: 900px;
+    color: aliceblue;
 }
-
-
-h1 {
-    font-family: 'Archivo', sans-serif;
-    padding-right: 350px;
-    color: var(--white-font);
-    font-size: 70px;
-}
-
-header a {
-    font-family:'DM Sans', sans-serif;
-    font-size: 15pt;
-    color:(71, 66, 66);
-}
-
-button {
-    font-weight: 500;
-    color: black;
-    font-family: 'Archivo' 'DM Sans', sans-serif;
-    font-size: 13pt;
-    border-radius: 50px;
-}
-
-.button-at-start {
-    max-width: 600px;
-    height: 50px;
-
-}
-
-
-.content {
-    max-height: none;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    margin-bottom: 300px;
-    padding-top: 140px;
-}
-.aboutMe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 400px;
-    justify-content: space-evenly;
-
- }
-
-.bio-section {
-    display: block;
-    color: var(--white-font);
-    justify-content: space-around;
-
-
-}
-
-.my-photo {
-    border-radius: 20px;
-    box-shadow: 0px 8px 30px #322f2f73;
-
-}
-#project1-web-image {
-    width: 400px;
-    height: 240px;
-    border-radius: 30px;
-    margin-left: 50px;
-    margin-top:40px;
- }
-
-
-
-.button-at-start {
-    display: flex;
-    margin: auto;
-
-}
-
-.button-my-project,
-.button-about-me {
-    background-color: rgba(6, 110, 255, 0.912);
-    width: 160px;
-    height: 40px;
-    font-weight: 700;
-    margin-right: 200px;
-
-}
-
-.button-my-project {
-    color: white;
-    margin-right: 50px;
-
-}
-
-
-.button-about-me .button-my-project {
-    padding: 50px;
-    margin-bottom: 200px;
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 50px;
-}
-
-.portfolio-display div {
-    width: 300px;
-    height: 600px;
-    border-radius: 30px;
-    padding: 20px;
-
-
-}
-#project1-box {
-    width: 500px;
-}
-.portfolio-display {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: none;
-    margin: auto;
-}
-
-#intro-page button:hover {
-    box-shadow: 0px 8px 30px #3734346e;
-}
-
-#project3-box image {
-    margin-bottom: 420px;
-}
-
-nav a {
-    color: black;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: var(--white-font);
-    font-size: 18pt;
-
-}
-
-#bio-button {
-    background-color: transparent;
-    box-shadow: none;
-    color: rgb(228, 5, 5);
-    font-size: 25px;
-}
-
-#bio-button:hover {
-    color: var(--white-font);
-}
-
-.portfolio-display h4 {
-    color: rgb(111, 109, 112);
-}
-
-.contact {
-    display: flex;
-    justify-content: center;
-}
-.contact-info {
-    color: rgb(9, 9, 9);
-    list-style-type: circle;
-    border-style: dotted;
-    width: 1050px;
-    padding-bottom: 0px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-weight: 600;
-    justify-content: center;
-    justify-content: space-evenly;
-
-}
-
-.contact-info a {
-    color: rgb(70, 219, 29);
-}
-
-.contact-info a:hover {
-    color: var(--white-font)
-}
- .contact-info:hover {
-    box-shadow: #0000006e;
- }
-
- .bio-section {
-    box-shadow: 0px 2px 36px #00000073;
-    padding-bottom: 0px;
- }
-
-.portfolio-display div:hover {
- box-shadow: 0px 2px 36px #00000073;;
+.card {
+    background-color: rgba(71, 91, 108, 0.572);
 }
 
 
 
 
-@media screen and (max-width:1400px) {
-    
-
-    .portfolio-display {
-        flex-wrap: wrap;
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        max-height: none;
-        
-    }
-    
-    .my-photo {
-        margin-bottom: 40px;
-    }
-    .portfolio-display div {
-        min-width: 500px;
-        margin:auto;
-        margin-bottom: 300px;
-
-    }
-    
-
-    nav a {
-        display: none;
-    }
-    nav {
-        margin: auto;
-    }
-    nav h1 {
-        min-width: 600px;
-    }
-    
-}
-@media screen and (min-width: 1400px) {
-    #project2-box img, #project3-box img {
-        max-width: 300px;
-        margin-left: 1px;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .content {
-        margin-left: 140px;
-    }
 
 
-    .aboutMe h4 {
-        font-size: 10px;
-        max-width: 300px;
-        margin-top: 3px;
-    }
-}
