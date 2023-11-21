@@ -15,11 +15,13 @@ body {
 .nav-link {
     font-size: 30px;
     color: rgba(217, 225, 222, 0.837);
+    font-family: 'Rubik', sans-serif;
 }
 .navbar-brand {
     font-size: 60px;
     font-weight: 900px;
     color: rgba(245, 238, 238, 0.72);
+    font-family: 'Rubik', sans-serif;
 }
 .card {
     background-color: rgba(71, 91, 108, 0.572);
