@@ -14,12 +14,12 @@ body {
 
 .nav-link {
     font-size: 30px;
-    color: rgba(225, 220, 220, 0.918);
+    color: rgba(217, 225, 222, 0.837);
 }
 .navbar-brand {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 900px;
-    color: aliceblue;
+    color: rgba(245, 238, 238, 0.72);
 }
 .card {
     background-color: rgba(71, 91, 108, 0.572);
@@ -43,3 +43,14 @@ body {
     background-color: rgba(47, 39, 39, 0.613);
 }
 
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-info a {
+    color: rgba(61, 200, 23, 0.821);
+}
+
+.contact-info a:hover {
+    color: rgba(90, 25, 120, 0.816);
+}

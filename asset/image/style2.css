@@ -21,7 +21,10 @@ body {
 
 
 
-
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+}
 .contact-info a {
     color: rgb(70, 219, 29);
 }
@@ -40,8 +43,4 @@ body {
     bottom: 0;
     width: 99%;
     background-color: rgba(47, 39, 39, 0.613);
-}
-.contact-info{
-    display: flex;
-    justify-content: space-around;
 }
