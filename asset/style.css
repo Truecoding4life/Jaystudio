@@ -1,26 +1,10 @@
 * {
-    font-family: 'Achivo', sans-serif;
-    border-style: daed;
-
-}
-
-:root {
-    --white-font: beige;
-    --gray-font:rgb(71, 66, 66);
-}
-
-.intro-box {
-    color: var(--white-font);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    font-family: 'Hind', sans-serif;
 
 }
 
 body {
-    min-height: 1900px;
+    min-height: 1650px;
     margin: auto;
     background-image: url("../asset/image/purple.jpeg");
     background-size: cover;
@@ -41,8 +25,21 @@ body {
     background-color: rgba(71, 91, 108, 0.572);
 }
 
+#welcome-quote {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgba(240, 238, 238, 0.899);
+}
 
 
 
-
+.footer{
+    color: white;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    background-color: rgba(47, 39, 39, 0.613);
+}
 

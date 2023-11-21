@@ -1,5 +1,5 @@
 body {
-    min-height: 1900px;
+    min-height: 1650px;
     margin: auto;
     background-image: url("../image/purple.jpeg");
     background-size: cover;
@@ -19,25 +19,8 @@ body {
     background-color: rgba(71, 91, 108, 0.572);
 }
 
-.contact {
-    display: flex;
-    justify-content: center;
-}
-.contact-info {
-    color: rgb(9, 9, 9);
-    list-style-type: circle;
-    border-style: dotted;
-    width: 1050px;
-    padding-bottom: 20px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-weight: 600;
-    justify-content: center;
-    justify-content: space-evenly;
 
-}
+
 
 .contact-info a {
     color: rgb(70, 219, 29);
@@ -49,3 +32,16 @@ body {
  .contact-info:hover {
     box-shadow: #0000006e;
  }
+
+ .footer{
+    color: white;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    background-color: rgba(47, 39, 39, 0.613);
+}
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+}
