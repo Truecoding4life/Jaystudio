@@ -46,3 +46,10 @@ body {
     width: 99%;
     background-color: rgba(47, 39, 39, 0.613);
 }
+@media ( max-width: 768px) {
+    /* Add your CSS code here */
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+}

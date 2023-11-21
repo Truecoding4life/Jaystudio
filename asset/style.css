@@ -56,3 +56,11 @@ body {
 .contact-info a:hover {
     color: rgba(90, 25, 120, 0.816);
 }
+
+@media ( max-width: 768px) {
+    /* Add your CSS code here */
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
