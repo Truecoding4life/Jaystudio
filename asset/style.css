@@ -4,7 +4,8 @@
 }
 
 body {
-    height: 100%;
+    min-height: auto;
+    height: auto;
     margin: auto;
     background-image: url("../asset/image/purple.jpeg");
     background-size: cover;
@@ -62,15 +63,23 @@ body {
    .footer {
     position: absolute;
    }
-
 }
 @media ( max-width: 768px) {
     /* Add your CSS code here */
     .contact-info {
         display: flex;
         flex-direction: column;
+        display: none;
     }
+    .navbar a {
+        font-size: 13px;
+    }
+    
+}
 
-
+@media ( max-width: 1200px) {
+    .navbar a {
+        font-size: 20px;
+    }
     
 }
