@@ -1,5 +1,5 @@
 body {
-    min-height: 1650px;
+    min-height: 100%;
     margin: auto;
     background-image: url("../image/purple.jpeg");
     background-size: cover;
@@ -36,15 +36,16 @@ body {
 }
  .contact-info:hover {
     box-shadow: #0000006e;
- }
+}
 
- .footer{
+.footer {
+    margin-top: 400px;
     color: white;
     padding: 40px;
-    position: absolute;
+    position: bottom;
     bottom: 0;
     width: 99%;
-    background-color: rgba(47, 39, 39, 0.613);
+    background-color:  rgba(71, 91, 108, 0.572);
 }
 @media ( max-width: 768px) {
     /* Add your CSS code here */
@@ -53,3 +54,10 @@ body {
         flex-direction: column;
     }
 }
+
+@media ( min-width: 1400px ) {
+    .footer {
+     position: absolute;
+    }
+ 
+ }

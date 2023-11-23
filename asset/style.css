@@ -4,7 +4,7 @@
 }
 
 body {
-    min-height: 1650px;
+    height: 100%;
     margin: auto;
     background-image: url("../asset/image/purple.jpeg");
     background-size: cover;
@@ -36,13 +36,14 @@ body {
 
 
 
-.footer{
+.footer {
+    margin-top: 400px;
     color: white;
     padding: 40px;
-    position: absolute;
+    position: bottom;
     bottom: 0;
     width: 99%;
-    background-color: rgba(47, 39, 39, 0.613);
+    background-color:  rgba(71, 91, 108, 0.572);
 }
 
 .contact-info{
@@ -57,10 +58,19 @@ body {
     color: rgba(90, 25, 120, 0.816);
 }
 
+@media ( min-width: 1400px ) {
+   .footer {
+    position: absolute;
+   }
+
+}
 @media ( max-width: 768px) {
     /* Add your CSS code here */
     .contact-info {
         display: flex;
         flex-direction: column;
     }
+
+
+    
 }
